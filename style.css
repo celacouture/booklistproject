@@ -1,0 +1,45 @@
+body{
+  background-color: #fff;
+  background-image: url('samuel-zeller-686441-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #1B2631;
+
+}
+
+.container{
+  background-color: #fff;
+  padding: 15px;
+}
+
+.success, .error{
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success{
+  background: #34CA34;
+}
+
+.error{
+  background: #F91E10;
+}
+
+.button, input[type="submit"] {
+  background-color: #1B2631;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-image: url('samuel-zeller-686441-unsplash.jpg');
+    background-position: bottom;
+    background-size: 100% 100%;
+  }
+  .container{
+    height:100%;
+  }
+}
